@@ -1,0 +1,40 @@
+---
+title: <u>Zeel</u> B Patel
+image: images/profile_crop.png
+about:
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: file-earmark-pdf
+      text: CV
+      href: cv/Zeel_CV.pdf
+    - icon: twitter-x
+      text: X (Twitter)
+      href: https://twitter.com/patel_zeel_
+    - icon: github
+      text: Github
+      href: https://github.com/patel-zeel
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/zeel-b-patel/
+    - icon: envelope
+      text: Email
+      href: mailto:patel_zeel@iitgn.ac.in
+    - icon: book
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=7LY1_u4AAAAJ&hl=en
+    - icon: stack-overflow
+      text: Stack Overflow
+      href: https://stackoverflow.com/users/13330701/zeel-b-patel
+---
+
+<div style="text-align: justify">
+Zeel is a PhD student in Computer Science and Engineering at the <a style="text-decoration:none" href="https://nipunbatra.github.io/lab/">Sustainability lab</a>, <a style="text-decoration:none" href="https://www.iitgn.ac.in/">IIT Gandhinagar</a> advised by Prof. <a style="text-decoration:none" href="https://nipunbatra.github.io">Nipun Batra</a>. His research area of interest is "Spatio Temporal Modeling with Machine Learning".
+
+#### Key Achievements
+* Zeel is a <a style="text-decoration:none" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">Microsoft Research India</a> PhD Fellow.
+* Zeel is a co-author in <a style="text-decoration:none" href="https://probml.github.io/pml-book/book2.html">Probabilistic Machine Learning: Advanced Topics</a> (<img src="https://img.shields.io/github/downloads/probml/pml2-book/total" alt="download stats shield">) book authored by a well-known author <a style="text-decoration:none" href="https://www.cs.ubc.ca/~murphyk/">Kevin Murphy</a>. 
+* Zeel was a Google Summer of Code (GSoC) contributor at TensorFlow in 2022.
+
+</div>
