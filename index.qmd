@@ -13,7 +13,7 @@ about:
       text: X (Twitter)
       href: https://twitter.com/patel_zeel_
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/patel-zeel
     - icon: linkedin
       text: LinkedIn
