@@ -16,7 +16,7 @@ format:
     <li style="--accent-color:#E24A68">
         <div class="date">2024 Jun 17</div>
         <div class="title">Achievement</div>
-        <div class="descr">Received Microsoft Research India PhD Fellowship</a></div>
+        <div class="descr">Received [Microsoft Research India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/) PhD Fellowship</a></div>
     </li>
     <li style="--accent-color:#FBCA3E">
         <div class="date">2023 Dec 10-16</div>
