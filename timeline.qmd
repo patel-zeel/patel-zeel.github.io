@@ -2,7 +2,7 @@
 format: 
   html:
     page-layout: full
-    css: timeline.scss
+    css: timeline.css
 ---
 
 <!-- Colors for different categories -->

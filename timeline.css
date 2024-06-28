@@ -42,13 +42,12 @@ ul {
 ul::before {
     content: "";
     grid-column: 1;
-    grid-row: 1 / span 20;
+    grid-row: 1/span 20;
     background: rgb(225, 225, 225);
     border-radius: calc(var(--line-w) / 2);
 }
 
 /* columns*/
-
 /* row gaps */
 ul li:not(:last-child) {
     margin-bottom: var(--row-gap);
@@ -69,18 +68,14 @@ ul li .date {
     --dateH: 3rem;
     height: var(--dateH);
     margin-inline: calc(var(--inlineP) * -1);
-
     text-align: center;
     background-color: var(--accent-color);
-
     color: white;
     font-size: 1.25rem;
     font-weight: 700;
-
     display: grid;
     place-content: center;
     position: relative;
-
     border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
 }
 
@@ -93,7 +88,6 @@ ul li .date::before {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
     position: absolute;
     top: 100%;
-
     clip-path: polygon(0 0, 100% 0, 0 100%);
     right: 0;
 }
@@ -108,7 +102,6 @@ ul li .date::after {
     border: 0.3rem solid var(--accent-color);
     border-radius: 50%;
     top: 50%;
-
     transform: translate(50%, -50%);
     right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
