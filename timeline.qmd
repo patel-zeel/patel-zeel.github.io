@@ -13,6 +13,11 @@ format:
 <!-- Milestone - #BBAC4B -->
 
 <ul>
+    <li style="--accent-color:#FBCA3E">
+        <div class="date">2024 Jul 08-11</div>
+        <div class="title">Conference</div>
+        <div class="descr">Attended [ACM COMPASS](https://2024.compass.acm.org/) conference at IIIT Delhi, India</a></div>
+    </li>
     <li style="--accent-color:#E24A68">
         <div class="date">2024 Jun 17</div>
         <div class="title">Achievement</div>

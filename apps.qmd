@@ -1,0 +1,15 @@
+# VayuBuddy: An LLM-powered chatbot to answer questions related to air quality
+
+[![](images/vayubuddy.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/VayuBuddy)
+
+# Brick Kiln Detection from Satellite Imagery
+
+This App was developed as part of our collaboration with Gujarat Pollution Control Board (GPCB).
+
+[![](images/brick_kiln_interactive.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/brick_kiln_interactive_visualize)
+
+# Vrinda (वृन्दा): Interactive Vegetation Index Analyzer
+
+This App was developed as part of our collaboration with Gujarat Forest Department (GFD).
+
+[![](images/vrinda.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/NDVI_PERG)
