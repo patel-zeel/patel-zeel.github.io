@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://patel-zeel.github.io/publications.html</loc>
-    <lastmod>2024-10-07T11:36:35.611Z</lastmod>
+    <lastmod>2024-10-25T03:27:03.662Z</lastmod>
   </url>
   <url>
     <loc>https://patel-zeel.github.io/timeline.html</loc>
-    <lastmod>2024-10-07T11:36:35.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://patel-zeel.github.io/index.html</loc>
-    <lastmod>2024-10-07T11:36:35.611Z</lastmod>
+    <lastmod>2024-10-25T03:27:03.662Z</lastmod>
   </url>
   <url>
     <loc>https://patel-zeel.github.io/gsoc/gsoc22.html</loc>
-    <lastmod>2024-10-07T11:36:35.610Z</lastmod>
+    <lastmod>2024-10-25T03:27:03.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://patel-zeel.github.io/apps.html</loc>
+    <lastmod>2024-10-25T03:27:03.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://patel-zeel.github.io/index.html</loc>
+    <lastmod>2024-10-25T03:27:03.662Z</lastmod>
   </url>
 </urlset>
