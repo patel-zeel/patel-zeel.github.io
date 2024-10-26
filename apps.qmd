@@ -13,3 +13,7 @@ This App was developed as part of our collaboration with Gujarat Pollution Contr
 This App was developed as part of our collaboration with Gujarat Forest Department (GFD).
 
 [![](images/vrinda.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/NDVI_PERG)
+
+# Bhuvan (भुवन): Interactive KML/GeoJSON Viewer
+
+[![](images/bhuvan.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/bhuvan)
