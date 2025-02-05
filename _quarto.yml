@@ -23,5 +23,5 @@ format:
     theme:
       light: cosmo
       dark: superhero
-    css: styles.css
+    css: styles.scss
     toc: true

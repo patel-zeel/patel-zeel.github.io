@@ -14,6 +14,16 @@ format:
 
 <ul>
     <li style="--accent-color:#FBCA3E">
+        <div class="date">2025 Jan 26-17</div>
+        <div class="title">Conference</div>
+        <div class="descr">Attended Google DeepMind Research Symposium</a></div>
+    </li>
+    <li style="--accent-color:#FBCA3E">
+        <div class="date">2024 Nov 13</div>
+        <div class="title">Conference</div>
+        <div class="descr">Presented [AirChat: LLM-Powered Chatbot System to Democratize Urban Air Quality Information](https://docs.google.com/presentation/d/1E3rXyLsp7dWBI4LSL7eOpKLXzjShEawxIUv8vTNVU0Y/edit?usp=sharing) at Google AQ Summit</a></div>
+    </li>
+    <li style="--accent-color:#FBCA3E">
         <div class="date">2024 Jul 08-11</div>
         <div class="title">Conference</div>
         <div class="descr">Attended [ACM COMPASS](https://2024.compass.acm.org/) conference at IIIT Delhi, India</a></div>
@@ -134,7 +144,5 @@ format:
         <div class="descr">Attended [KDD](https://www.kdd.org/kdd2020/) conference virtually </div>
     </li>
 </ul>
-
-
 
 <div class="credits"><a target="_blank" href="https://codepen.io/MarkBoots/pen/OJOqNyB">theme is inspired by</a></div>
