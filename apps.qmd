@@ -8,12 +8,8 @@ This App was developed as part of our collaboration with Gujarat Pollution Contr
 
 [![](images/brick_kiln_interactive.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/brick_kiln_interactive_visualize)
 
-# Vrinda (वृन्दा): Interactive Vegetation Index Analyzer
+# Kamlan: KML Analyzer
 
 This App was developed as part of our collaboration with Gujarat Forest Department (GFD).
 
 [![](images/vrinda.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/NDVI_PERG)
-
-# Bhuvan (भुवन): Interactive KML/GeoJSON Viewer
-
-[![](images/bhuvan.png)](https://huggingface.co/spaces/SustainabilityLabIITGN/bhuvan)
