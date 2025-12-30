@@ -18,7 +18,7 @@ about:
   - icon: linkedin
     text: LinkedIn
     href: https://www.linkedin.com/in/zeel-b-patel/
-  - icon: outlook
+  - icon: windows
     text: Email
     href: mailto:t-zeelpatel@microsoft.com
   - icon: mortarboard
