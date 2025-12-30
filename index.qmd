@@ -6,31 +6,31 @@ about:
   image-width: 15em
   image-shape: round
   links:
-    - icon: file-earmark-pdf
-      text: CV
-      href: cv/Zeel_CV.pdf
-    - icon: twitter-x
-      text: X (Twitter)
-      href: https://twitter.com/patel_zeel_
-    - icon: github
-      text: GitHub
-      href: https://github.com/patel-zeel
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/zeel-b-patel/
-    - icon: envelope
-      text: Email
-      href: mailto:patel_zeel@iitgn.ac.in
-    - icon: book
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=7LY1_u4AAAAJ&hl=en
-    - icon: stack-overflow
-      text: Stack Overflow
-      href: https://stackoverflow.com/users/13330701/zeel-b-patel
+  - icon: file-pdf
+    text: CV
+    href: cv/Zeel_CV.pdf
+  - icon: x-twitter
+    text: X (Twitter)
+    href: https://twitter.com/patel_zeel_
+  - icon: github
+    text: GitHub
+    href: https://github.com/patel-zeel
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/zeel-b-patel/
+  - icon: outlook
+    text: Email
+    href: mailto:t-zeelpatel@microsoft.com
+  - icon: mortarboard
+    text: Google Scholar
+    href: https://scholar.google.com/citations?user=7LY1_u4AAAAJ&hl=en
+  - icon: code-square
+    text: Stack Overflow
+    href: https://stackoverflow.com/users/13330701/zeel-b-patel
 ---
 
 <div style="text-align: justify">
-Zeel is a PhD student in Computer Science and Engineering at the <a style="text-decoration:none" href="https://nipunbatra.github.io/lab/">Sustainability lab</a>, <a style="text-decoration:none" href="https://www.iitgn.ac.in/">IIT Gandhinagar</a> advised by Prof. <a style="text-decoration:none" href="https://nipunbatra.github.io">Nipun Batra</a>. His research area of interest is "AI for Social Good".
+Zeel is a PostDoc at Microsoft Research India. His current research focus is on building fast and accurate retrieval models. Zeel did his PhD with focus on "AI for Social Good" at the <a style="text-decoration:none" href="https://nipunbatra.github.io/lab/">Sustainability lab</a>, <a style="text-decoration:none" href="https://www.iitgn.ac.in/">IIT Gandhinagar</a> advised by Prof. <a style="text-decoration:none" href="https://nipunbatra.github.io">Nipun Batra</a>.
 
 #### Key Achievements
 * Zeel was <a style="text-decoration:none" href="https://www.microsoft.com/en-us/research/academic-program/microsoft-research-india-phd-award-2024/">one of the 10 recipients</a> of Microsoft Research India PhD Fellowship Award 2024.
