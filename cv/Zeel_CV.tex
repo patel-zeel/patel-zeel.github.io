@@ -1,0 +1,399 @@
+\documentclass[letter,10pt]{article}
+\usepackage[left=1.3cm,right=1.3cm,top=1.5cm,bottom=1.5cm]{geometry}
+% \usepackage{color}
+\usepackage{color}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,
+            urlcolor=[RGB]{100,100,150}}
+\usepackage{scalerel}
+%\usepackage{fontspec}
+%\usepackage{libertine}
+%\usepackage{palatino}
+%\usepackage{lmodern}
+\usepackage[default,osf]{sourcesanspro}
+\usepackage[scaled=.1]{sourcecodepro}
+% \hypersetup{
+%     colorlinks=true,
+%     citecolor=blue,
+%     filecolor=blue,
+%     linkcolor=blue,
+%     urlcolor=blue
+% }
+
+%%% age calculator
+\usepackage{datenumber, fp}
+
+\newcounter{birthday}
+\setmydatenumber{birthday}{1996}{08}{04} % my birthday
+\setdatetoday
+\addtocounter{datenumber}{-\thebirthday} % today - birthday
+\setdatebynumber{\thedatenumber} % get date
+\FPsub\result{\thedateyear}{\thestartyear} % date year - start year (see datenumber lib doc)
+\FPtrunc\myage{\result}{0} %truncate result
+
+%%%
+
+\usepackage{verbatim} %%for multiline comment...
+\newcommand{\red}[1]{{\color{red}\small \textbf{Nipun's comment:} #1}}
+
+%\usepackage[TC1]{fontenc}
+%\usepackage{hyperref}
+%\usepackage{vmargin}
+%opening
+\title{CV}
+\author{Zeel B Patel}
+%\pagestyle{empty}
+%\setmarginsrb{2.54cm}% left margin
+%{2.54cm}% top margin
+%{2.54cm}% right margin
+%{2.54cm}% bottom margin
+%{0mm}{0mm}{0mm}{0mm}% not needed -- related to headers and footers
+%\setmainfont{[Roboto-Regular.ttf]}
+
+%\fontspec [ Path = fontdir/, 
+%UprightFont=*-Regular,
+%ItalicFont=*-Italic,
+%BoldFont=*-Bold,
+%BoldItalicFont=*-BoldItalic,
+%]{Roboto}
+
+%\newfontfamily\bodyfont[
+%Path=fontdir/,
+%UprightFont=*-Regular,
+%ItalicFont=*-It,
+%BoldFont=*-Bold,
+%BoldItalicFont=*-BoldIt
+%]{SourceSansPro}
+
+%\setmainfont{SourceSansPro}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+
+\fancyhf{}
+\fancyfoot[L]{Last updated: \today}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt}
+\begin{document}
+
+\setlength\itemsep{-1em}
+
+\begin{center}
+	\begin{Large}
+		\textbf{Zeel B Patel}\\
+	\end{Large}
+	
+\end{center}
+
+\begin{multicols}{2}
+\begin{small}
+\noindent Date of Birth: 04 Aug 1996 (\myage\ years old)\\
+Nationality: Indian \\
+Website: \href{https://patel-zeel.github.io/}{https://patel-zeel.github.io/} \\ 
+Email (work): \href{mailto:t-zeelpatel@microsoft.com}{t-zeelpatel@microsoft.com}\\
+Email (personal): \href{mailto:zeelpatel4896@gmail.com}{zeelpatel4896@gmail.com}\\
+GitHub: \href{https://github.com/patel-zeel}{https://github.com/patel-zeel}
+
+\end{small}
+\end{multicols}
+
+\subsection*{{\sc \textbf{Education}}\hspace{5pt}\noindent\hrulefill}
+
+\begin{figure*}[t]
+    \hfill
+    \includegraphics[width=0.18\textwidth]{website_qr.png}
+    \vspace{-90pt}
+    % \caption{}
+    % \label{fig:enter-label}
+\end{figure*}
+
+\begin{itemize}
+\item
+    \textbf{PhD in Computer Science}, \hfill \textit{Jan 2020 - Feb 2026 (Expected)}\\
+    Thesis: AI for Air Quality: Modeling, Sensor Placement and Source Detection\\
+	Advisor: \href{https://nipunbatra.github.io/}{Nipun Batra} \\
+	CPI: 9.7/10\\
+	IIT Gandhinagar, Gujarat, India
+\item
+	\textbf{\href{https://iiitdm.ac.in/img/curriculum/PG/SMT_Curriculum_16-05-2017.pdf}{M.Tech. in Smart Manufacturing}}, \hfill \textit{Aug 2017 - May 2019}\\
+	CGPA: 9.17/10\\
+	IIITDM Kancheepuram, Chennai, India
+% \item[]
+% 	\textbf{B.E. in Mechanical Engineering}, \hfill \textit{Aug 2013 - May 2017}\\
+% 	CGPA: 7.52/10.0\\
+% 	Kadi Sarva Vishwavidyalaya, Gandhinagar, India
+%  \item[]
+% 	\textbf{HSC [Class XII]} (Gujarat Higher Secondary Board), \hfill \textit{Apr 2011 - Mar 2013}\\
+% 	Ved International School, Gandhinagar, Gujarat, India \\
+%     Percentage: 79.69/100
+%  \item[]
+%     \textbf{SSC [Class X]} (Gujarat Higher Secondary Board), \hfill \textit{Apr 2010 - Mar 2011}\\
+% 	Sardar Patel High School, Indraprastha, Anjar, Gujarat, India \\
+%     Percentage: 84.8/100
+
+\end{itemize}
+
+\subsection*{{\sc \textbf{Work Experience}}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+	\item \textbf{PostDoc Researcher, Microsoft Research India}\hfill \textit{Jul 2025 - Present}
+
+	\item \textbf{Software Engineering Intern, Google Summer of Code}\hfill \textit{Jun 2022 - Sep 2022}\\
+	Mentor: \href{https://www.cs.ubc.ca/~murphyk/}{Kevin P Murphy}\\
+	Project: Develop JAX examples and demos for the ProbML textbook\\
+	GitHub repo: \href{https://github.com/probml/pyprobml}{https://github.com/probml/pyprobml}\\
+	Final report: \href{https://patel-zeel.github.io/gsoc22}{https://patel-zeel.github.io/gsoc22}
+
+	\item \textbf{Data Scientist, R\&D Team}\hfill \textit{Jun 2019 - Dec 2019}\\
+	Inspirisys Solutions Ltd., Chennai, India
+\end{itemize}
+
+\subsection*{\sc \textbf{Open Source Libraries}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+	\item[] \href{https://github.com/patel-zeel/bijax}{\textbf{BIJAX}} (7$\bigstar$): Bayesian Inference in JAX; used in Kevin Murphy's Probabilistic Machine Learning book
+	\item[] \href{https://github.com/patel-zeel/gpax}{\textbf{GPAX}} (6$\bigstar$): Gaussian processes in JAX, developed for my PhD research
+	\item[] \href{https://github.com/patel-zeel/skgpytorch}{\textbf{skgpytorch}} (3$\bigstar$): Scikit-learn interface for GPyTorch enabling rapid GP model prototyping
+	\item[] \href{https://github.com/sustainability-lab/ASTRA}{\textbf{ASTRA}} (3$\bigstar$): AI for Sustainability Toolkit, developed for my research group at IIT Gandhinagar
+\end{itemize}
+
+\subsection*{\sc \textbf{Selected Open Source Contributions}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+\item[] \textbf{supervision (\href{https://roboflow.com/}{Roboflow}):} Added Oriented Bounding Boxes support to this popular object detection library \href{https://github.com/roboflow/supervision/pull/1502}{(PR \#1502)}
+\item[] \textbf{matplotlib:} Fixed slow plotting for PyTorch/JAX arrays; required cross-library coordination (NumPy, Matplotlib, PyTorch, JAX) \href{https://github.com/matplotlib/matplotlib/pull/25887}{(PR \#25887)}
+\item[] \textbf{Stheno:} Implemented FITC, one of the most widely-used sparse Gaussian process methods \href{https://github.com/wesselb/stheno/pull/17}{(PR \#17)}
+\item[] \textbf{GPyTorch:} Added probabilistic metrics module; essential for proper evaluation of probabilistic models beyond RMSE \href{https://github.com/cornellius-gp/gpytorch/pull/1870}{(PR \#1870)}
+\end{itemize}
+
+\subsection*{{\sc \textbf{Publications} (\href{https://scholar.google.com/citations?user=7LY1_u4AAAAJ&hl=en}{Google Scholar profile})}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+    \item[]\textbf{Journal articles}
+    \begin{enumerate}
+        \item{\textbf{Zeel B Patel}, Rishabh Mondal, Shataxi Dubey, Suraj Jaiswal, Sarath Guttikunda, Nipun Batra\\
+        \href{https://arxiv.org/abs/2412.04065}{\textit{Space to Policy: Scalable Brick Kiln Detection and Automatic Compliance Monitoring with Geospatial Data}}\\
+        Accepted in \href{https://dl.acm.org/journal/acmjcss}{ACM Journal on Computing and Sustainable Societies} and to be presented in ACM COMPASS 2025 conference.
+        }\\
+        Project page: \href{https://sustainability-lab.github.io/brick-kilns/}{https://sustainability-lab.github.io/brick-kilns/}
+        
+    \end{enumerate}
+    
+    \item[]\textbf{Selected peer-reviewed articles}
+    \begin{enumerate}
+    
+    \item{\textbf{Zeel B Patel}, Vinayak Rana, Nipun Batra}\\
+    \textit{Scalable Air-Quality Sensor Placement via Gradient-Based Mutual Information Maximization}\\
+    AAAI 2026 (CORE A*, Oral Presentation - 24.1\% acceptance rate)\\
+    GitHub repo: \href{https://github.com/sustainability-lab/gdmi-aqs}{https://github.com/sustainability-lab/gdmi-aqs}
+    
+    \item{\textbf{Zeel B Patel}, Palak Purohit, Harsh Patel, Shivam Sahni, Nipun Batra}\\
+    \href{https://ojs.aaai.org/index.php/AAAI/article/view/21467}{\textit{Accurate and Scalable Gaussian Processes for Fine-grained Air Quality Inference}}\\
+    AAAI 2022 (CORE A* - 15\% acceptance rate)\\
+    GitHub repo: \href{https://github.com/patel-zeel/AAAI22}{https://github.com/patel-zeel/AAAI22}
+
+    \item{
+        Sachin Chauhan, \textbf{Zeel B Patel}, Sayan Ranu, Rijurekha Sen, Nipun Batra\\
+        \textit{Fine-Grained Spatio-Temporal Particulate Matter Dataset From Delhi For ML based Modeling}\\
+        In NeurIPS 2023 Datasets and Benchmarks (CORE A* - 32.7\% acceptance rate)
+    }
+    
+    \item{Rishiraj Adhikary, \textbf{Zeel B Patel}, Tanmay Srivasatava, Nipun Batra, Mayank Singh, Udit Bhatia, Sarath Guttikunda}\\
+    \href{https://dl.acm.org/doi/abs/10.1145/3449170}{\textit{Vartalaap: What Drives \#AirQuality Discussions: Politics, Pollution or Pseudo-science?}}\\
+    CSCW 2021 (CORE A)\\
+    GitHub repo: \href{https://github.com/rishi-a/Vartalaap}{https://github.com/rishi-a/Vartalaap}
+    
+    \item{Karm Patel, Rishiraj Adhikary, \textbf{Zeel B Patel}, Nipun Batra, Sarath Guttikunda}\\
+    \href{https://dl.acm.org/doi/abs/10.1145/3530190.3534812}{\textit{Samachar: News Media on Air Pollution in India}}\\
+    COMPASS 2022\\
+    GitHub repo: \href{https://github.com/karm-patel/Samachar-News-media-on-air-pollution}{https://github.com/karm-patel/Samachar-News-media-on-air-pollution}\\
+    
+    % \item{\textbf{Zeel B Patel}, Sreekumar Muthuswamy}\\
+    % \textit{A Machine Learning Scheme for Tool Wear Monitoring and Replacement in IoT-Enabled Smart Manufacturing}\\
+    % ICIPDIMS 2019
+    
+    \end{enumerate}
+
+    % \item[]\textbf{Other Distinguished Work}
+    % \begin{enumerate}
+        
+    % \end{enumerate}
+    
+    \item[]\textbf{Symposium, Workshop papers and Posters}
+    \begin{enumerate}
+        \item{Yash Bachwana, Khush Shah, Nitish Sharma, \textbf{Zeel B Patel}, Nipun Batra, Sarath Guttikunda\\
+        \href{https://github.com/patel-zeel/patel-zeel.github.io/blob/master/_publications/papers/2024_Compass_Vayu_Buddy_LLM.pdf}{\textit{VayuBuddy: LLM-powered natural language interface for exploring and understanding air pollution data}}\\
+        \href{https://sustainabilitylabiitgn-vayubuddy.hf.space/}{Live Demo}\\
+        \href{https://compass.acm.org/}{ACM COMPASS} Posters 2024
+        }
+         \item{Aditi Agarwal, Suraj Jaiswal, Madhav Kanda, Dhruv Patel, Rishabh Mondal, Vannsh Jani,
+                  \textbf{Zeel B Patel}, Nipun Batra, Sarath Guttikunda}\\
+        \href{https://github.com/patel-zeel/patel-zeel.github.io/blob/master/_publications/papers/Zeel_NeurIPS_Workshop_2023.pdf}{\textit{Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning}}\\
+        NeurIPS Workshop on Adaptive Experimental Design and Active Learning in the Real World 2023 (CORE A*)
+        \item{\textbf{Zeel B Patel}, Nipun Batra, \href{https://www.cs.ubc.ca/~murphyk/}{Kevin Murphy}}\\
+        \href{https://gp-seminar-series.github.io/neurips-2022/assets/camera_ready/54.pdf}{\textit{Uncertainty Disentanglement with Non-stationary Heteroscedastic Gaussian Processes for Active Learning}}\\
+        NeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems 2022 (CORE A*)
+        \item {Aadesh Desai, Eshan Gujarathi, Saagar Parikh, Sachin Yadav, \textbf{Zeel B Patel}, Nipun Batra}\\
+        \textit{Deep Gaussian Processes for Air Quality Inference}\\
+        Young Researchers' Symposium, CODS-COMAD 2023
+    
+    \item{\textbf{Zeel B Patel}*, S Deepak Narayanan*, Apoorv Agnihotri, Nipun Batra}\\
+    \textit{Poster: A toolkit for spatial interpolation and sensor placement}\\
+    ACM SenSys 2020 (CORE A*)\\
+    GitHub repo: \href{https://github.com/sustainability-lab/polire}{https://github.com/sustainability-lab/polire}
+    
+        \item{\textbf{Zeel B Patel}, Nipun Batra}\\
+    \textit{Active Learning: A Visual Tour}\\
+    3rd Workshop on Visualization for AI Explainability, IEEE VIS 2020 (CORE A)\\
+    Weblink: \href{https://patel-zeel.github.io/active-learning-visualization/}{https://patel-zeel.github.io/active-learning-visualization/}
+    
+    \end{enumerate}
+    
+    % \item[]\textbf{Under review}
+    % \begin{enumerate}
+    
+    
+    % \end{enumerate}
+    
+%     \item[]\textbf{Under submission}
+%     \begin{enumerate}
+    
+%     \item{Palak Purohit, \textbf{Zeel B Patel}, Nipun Batra}\\
+%     \textit{Re: Stochastic Gradient Descent in Correlated Settings:
+% A Study on Gaussian Processes}\\
+%     ReScience Journal
+%     % GitHub repo: \href{https://github.com/patel-zeel/AAAI22}{https://github.com/patel-zeel/AAAI22}
+    
+%     \item {\textbf{Zeel B Patel}, Deepak Narayanan, Apoorv Agnihotri, Nipun Batra}\\
+%     \textit{Re: Comparison of spatial interpolation methods for the estimation of air quality data}\\
+%     ReScience Journal
+    
+%     \item {\textbf{Zeel B Patel}, Nipun Batra}\\
+%     \textit{Re: high-resolution daily gridded meteorological dataset for Serbia made by random forest spatial interpolation}\\
+%     ReScience Journal
+    
+%     \end{enumerate}
+    
+\end{itemize}
+
+\subsection*{\sc \textbf{
+% Honours and 
+Awards}\hspace{5pt}\noindent\hrulefill}
+\begin{itemize}
+    \item[] Awards
+    \begin{itemize}
+        \item \href{https://www.microsoft.com/en-us/research/academic-program/microsoft-research-india-phd-award-2024/}{Microsoft Research India PhD Award}. Unrestricted grant of 1 million INR. \hfill \textit{2024}
+        \item Outstanding Graduate Teaching Fellow award in Probabilistic Machine Learning course. \hfill \textit{Fall 2022} \item[] IIT Gandhinagar
+    \end{itemize}
+    \item[] Registration grants
+    \begin{itemize}
+        \item NeurIPS 2022
+        \item \href{http://gpss.cc/}{GPSS 2022}
+        \item AAAI 2022
+        \item ICML 2021
+        \item IEEE VIS 2020
+    \end{itemize}
+    \item[] Helped advisor with 
+    \begin{itemize}
+        \item Google PaliGemma Compute Grant 2024 (\$5000 credits in Google Cloud Platform)
+        \item Google Compute Grant 2021 (\$5000 credits in Google Cloud Platform)
+    \end{itemize}
+    
+\end{itemize}
+
+
+
+
+
+
+
+\subsection*{\sc \textbf{Teaching Experience}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+\item[] Graduate Teaching Fellow (teaching a course along with the instructor)
+\begin{itemize}
+ \item
+    \href{https://nipunbatra.github.io/pml2022/}{\textbf{Probabilistic Machine Learning}}\\ 
+    \textit{IIT Gandhinagar}\hfill \textit{Fall 2022}\\
+\end{itemize}
+\item[] Teaching Assistant
+\begin{itemize}
+\item 
+    \href{https://nipunbatra.github.io/pml2023/}{\textbf{Probabilistic Machine Learning}}\\ 
+    \textit{IIT Gandhinagar}\hfill \textit{Fall 2023}\\
+\item
+    \href{https://nipunbatra.github.io/ml2023/}{\textbf{Machine Learning}}\\
+    \textit{IIT Gandhinagar}\hfill \textit{Spring 2023}\\
+ \item
+    \href{https://nipunbatra.github.io/ml2022/}{\textbf{Machine Learning}}\\ 
+    \textit{IIT Gandhinagar}\hfill \textit{Spring 2022}\\
+
+\end{itemize}
+
+\item[] Guest lectures
+\begin{itemize}
+ \item
+    \textbf{Introduction to Active Learning} \\
+    \textit{Ubiquitous computing, IIT Gandhinagar} \hfill \textit{Fall 2021}\\
+ \item
+    \textbf{Introduction to Bayesian Machine Learning} \\
+    \textit{Machine Learning, IIT Gandhinagar} \hfill \textit{Spring 2021} 
+\end{itemize}
+\end{itemize}
+
+\subsection*{\sc \textbf{Tools \& Skills}\hspace{5pt}\noindent\hrulefill}
+
+PyTorch, JAX, Triton, Unsloth, HuggingFace Transformers, Streamlit, GeoPandas, Xarray, Docker, Git/GitHub, LaTeX, VS Code Agents (for writing ML pipelines at scale)
+
+\subsection*{\sc \textbf{Book Contributions}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+        \item \textbf{Probabilistic Machine Learning: Advanced Topics: }\href{https://probml.github.io/pml-book/book2.html}{https://probml.github.io/pml-book/book2.html}\\
+        I co-authored Section 34.7 (Active learning) with Dr. Kevin Murphy
+        
+	\item \textbf{Code-First-ML: }\href{https://code-first-ml.github.io/}{https://code-first-ml.github.io/}\\
+	This book is a work-in-progress joint effort with my advisor and Prof. \href{http://www.cse.iitm.ac.in/~ashishvt/}{Ashish Tendulkar} to pragmatically explain ML concepts with interactive codes and visualizations.
+
+\end{itemize}
+
+\subsection*{\sc \textbf{Invited Talks}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+    \item[] \href{https://earthoutreachonair.withgoogle.com/events/aq-summit-2024#}{\textbf{Google Global Air Quality Summit}}\hfill \textit{13th Nov, 2024}\\Topic: AirChat: LLM-Powered Chatbot System to Democratize Urban Air Quality Information\\\href{https://sustainabilitylabiitgn-vayubuddy.hf.space}{App Demo: https://sustainabilitylabiitgn-vayubuddy.hf.space}\\Gurugram, India\\
+    
+    \item[] \href{https://asic.aqrc.ucdavis.edu/}{\textbf{Air Sensors International Conference}}\hfill \textit{26th Aug, 2022}\\
+        Topic: Accurate and Scalable Gaussian Processes for Fine-grained Air Quality Inference\\
+        Organized by \href{https://www.cstep.in/}{CSTEP, India} and \href{https://www.ucdavis.edu/}{UC DAVIS}\\
+	Bengaluru, India
+\end{itemize}
+
+\subsection*{\sc \textbf{Service}\hspace{5pt}\noindent\hrulefill}
+
+\begin{itemize}
+\itemsep0em 
+
+ \item[] \textbf{Reviewer}
+\itemsep0em 
+    \begin{itemize}
+        \item \href{https://neurips.cc/}{Annual Conference on Neural Information Processing Systems (CORE A*)}
+        \hfill\textit{2024}
+    \end{itemize}
+    \begin{itemize}
+        \item \href{https://aaai.org/aaai-conference/}{Association for the Advancement of Artificial Intelligence (AAAI) (CORE A*)}
+        \hfill\textit{2024}
+    \end{itemize}
+    \begin{itemize}
+        \item \href{http://aistats.org/aistats2023/}{Artificial Intelligence and Statistics (AISTATS) (CORE A)}
+        \hfill\textit{2023}
+    \end{itemize}
+    \begin{itemize}
+        \item ACM COMPASS Posters and Demos	\hfill\textit{2021}
+    \end{itemize}
+    \begin{itemize}
+        \item \href{http://rescience.github.io/}{The ReScience C journal}
+    \end{itemize}
+\end{itemize}
+
+\end{document}
