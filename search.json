@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "apps.html",
+    "href": "apps.html",
+    "title": "VayuBuddy: An LLM-powered chatbot to answer questions related to air quality",
+    "section": "",
+    "text": "VayuBuddy: An LLM-powered chatbot to answer questions related to air quality\n\n\n\nBrick Kiln Detection from Satellite Imagery\nThis App was developed as part of our collaboration with Gujarat Pollution Control Board (GPCB).\n\n\n\nKamlan: KML Analyzer\nThis App was developed as part of our collaboration with Gujarat Forest Department (GFD)."
+  },
+  {
     "objectID": "gsoc/gsoc22.html",
     "href": "gsoc/gsoc22.html",
     "title": "GSoC 2022 - Final Work Report",
@@ -89,12 +96,5 @@
     "title": "Peer-Reviewed Conference Papers",
     "section": "",
     "text": "Peer-Reviewed Conference Papers\n\n\n\n\nFine-Grained Spatio-Temporal Particulate Matter Dataset From Delhi For ML based Modeling\n\n\nSachin Chauhan, Zeel B Patel, Sayan Ranu, Rijurekha Sen, Nipun Batra\n\n\nNeurIPS 2023 (CORE A*)\n\nPublisher Link\n\n\n\n\n\n\nSamachar: Print News Media on Air Pollution in India\n\n\nKarm Patel, Rishiraj Adhikary, Zeel B Patel, Nipun Batra, Sarath Guttikunda\n\n\nACM COMPASS 2022\n\nPublisher Link\n\n\n\n\n\n\nAccurate and Scalable Gaussian Processes for Fine-grained Air Quality Inference\n\n\nZeel B Patel, Palak Purohit, Harsh Patel, Shivam Sahni, Nipun Batra\n\n\nAAAI 2022 (CORE A*, 15% acceptance rate)\n\nPDF Publisher Link\n\n\n\n\n\n\nVartalaap: what drives #AirQuality discussions: politics, pollution or pseudo-science?\n\n\nRishiraj Adhikary, Zeel B Patel, Tanmay Srivastava, Nipun Batra, Mayank Singh, Udit Bhatia, Sarath Guttikunda\n\n\nACM CSCW 2021 (CORE A)\n\nPublisher Link\n\n\n\n\nPeer-Reviewed Workshop Papers\n\n\n\n\nTowards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning\n\n\nAditi Agarwal, Suraj Jaiswal, Madhav Kanda, Dhruv Patel, Rishabh Mondal, Vannsh Jani, Zeel B Patel, Nipun Batra and Sarath Guttikunda\n\n\nRealWorldML Workshop, NeurIPS 2023\n\nPublisher Link\n\n\n\n\n\n\nChallenges in Gaussian Processes for Non Intrusive Load Monitoring\n\n\nAadesh Desai, Gautam Vashishtha, Zeel B Patel, Nipun Batra\n\n\nNeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems 2022\n\narXiv\n\n\n\n\n\n\nTowards Active Air Quality Station Deployment\n\n\nZeel B Patel, Nipun Batra\n\n\nSubSetML Workshop, ICML 2021\n\nPDF\n\n\n\n\n\n\nA toolkit for spatial interpolation and sensor placement\n\n\nZeel B Patel, S Deepak Narayanan, Apoorv Agnihotri, Nipun Batra\n\n\nACM SenSys 2020\n\nPublisher Link\n\n\n\n\n\n\nActive Learning: A Visual Tour\n\n\nZeel B Patel, Nipun Batra\n\n\nVisXAI Workshop, IEEE VIS 2020\n\nArticle\n\n\n\n\nNotable Publications\n\n\n\n\nVayuBuddy: an LLM-Powered Chatbot to Democratize Air Quality Insights\n\n\nZeel B Patel, Yash Bachwana, Nitish Sharma, Sarath Guttikunda, Nipun Batra\n\n\narXiv 2024\n\nProject Page arXiv Live Demo\n\n\n\n\n\n\nSpace to Policy: Scalable Brick Kiln Detection and Automatic Compliance Monitoring with Geospatial Data\n\n\nZeel B Patel, Rishabh Mondal, Shataxi Dubey, Suraj Jaiswal, Sarath Guttikunda, Nipun Batra\n\n\narXiv 2024\n\narXiv YouTube Google AQ Summit 2024 IITD Talk HuggingFace\n\n\n\n\n\n\nUncertainty Disentanglement with Non-stationary Heteroscedastic Gaussian Processes for Active Learning\n\n\nZeel B Patel, Nipun Batra, Kevin Murphy\n\n\nNeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems 2022\n\narXiv\n\n\n\n\nOthers\n\n\n\n\nConformal Prediction: A Visual Introduction\n\n\nMihir Agarwal, Lalit Routhu, Zeel B Patel, Nipun Batra\n\n\nVISxAI workshop 2023, IEEE VIS\n\nArticle\n\n\n\n\n\n\nDeep Gaussian Processes for Air Quality Inference\n\n\nAadesh Desai, Eshan Gujarathi, Saagar Parikh, Sachin Yadav, Zeel Patel, Nipun Batra\n\n\nCODS-COMAD 2023 Young Researchers Symposium track"
-  },
-  {
-    "objectID": "apps.html",
-    "href": "apps.html",
-    "title": "VayuBuddy: An LLM-powered chatbot to answer questions related to air quality",
-    "section": "",
-    "text": "VayuBuddy: An LLM-powered chatbot to answer questions related to air quality\n\n\n\nBrick Kiln Detection from Satellite Imagery\nThis App was developed as part of our collaboration with Gujarat Pollution Control Board (GPCB).\n\n\n\nKamlan: KML Analyzer\nThis App was developed as part of our collaboration with Gujarat Forest Department (GFD)."
   }
 ]
